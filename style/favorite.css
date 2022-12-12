@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(248, 235, 237);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.title_container {
+    margin-bottom: 20px;
+}
+
+.title_container a,h1 {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#card {
+    border-radius: 25px;
+}
+
+.card-head {
+    position: relative;
+    height: 252px;
+    /* background: #fa782e;
+    background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+    background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+    background: linear-gradient(135deg, #fa782e 8%, #c82930 83%); */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    border-radius: 25px 25px 0 0;
+    width: 900px;
+}
+
+.card-head img {
+    width: 280px;
+    border-radius: 5px;
+    height: 252px;
+}
+
+.card-body {
+    height: 255px;
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 50px;
+}
+
+.product-title {
+    padding: 20px 20px 90px 20px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.product-price {
+    /* position: absolute; */
+    background: #11e95b;
+    padding: 7px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -13px;
+    /* box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3); */
+}
+
+.remove_btn {
+    background: red;
+    padding: 7px 20px;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 0;
+    /* box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3); */
+}
